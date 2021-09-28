@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    padding: 200px;
+}
+
+div {
+    margin-left:15px;
+    margin-right:15px;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: khaki;
+}
+
+.headercolor {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#maintitle {
+    text-align:center;
+    font-family: "Blacksword", sans-serif;
+    font-size:4em;
+}
