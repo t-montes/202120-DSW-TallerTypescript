@@ -1,4 +1,5 @@
 import { Course } from './course.js';
+import { Student } from './student.js';
 export var dataCourses = [
     new Course("Diseño y Análisis de Algoritmos", "Jorge Duitama", 3),
     new Course("Lenguajes y Máquinas", "Nicolás Cardoso", 3),
@@ -9,3 +10,4 @@ export var dataCourses = [
     new Course("Física Moderna", "Benjamín Vannoppen", 3),
     new Course("Cupitaller - Diseño y Programación O.O.", "Germán Romero", 0)
 ];
+export var student = new Student("Tony Santiago Montes Buitrago", "202014562", "1000594256", 18, "Bogotá, Galerías", "3124187510");

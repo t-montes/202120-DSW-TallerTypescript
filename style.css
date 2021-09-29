@@ -3,13 +3,9 @@ body{
 }
 
 table {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     border-collapse: collapse;
     width: 100%;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 200px;
 }
 
@@ -36,8 +32,13 @@ tr:hover {
     color: #ffffff;
 }
 
+.margindiv {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
 #maintitle {
     text-align:center;
     font-family: "Blacksword", sans-serif;
-    font-size:4em;
+    font-size:3em;
 }

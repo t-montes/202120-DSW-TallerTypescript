@@ -8,4 +8,4 @@ export class Course {
         this.credits = credits;
         this.professor = professor;
     }
-}
+} 
